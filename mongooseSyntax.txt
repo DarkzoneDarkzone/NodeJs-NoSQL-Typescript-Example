@@ -1,0 +1,5 @@
+MyModel.find() ------for find all data
+MyModel.create({ firstname, lastname, username, password }) ------for insert data
+MyModel.create([{ firstname: 'Will Riker' }, { firstname: 'Geordi LaForge' }]) ------for insert data
+MyModel.deleteOne({ name: 'Eddard Stark' });
+MyModel.collection.drop() -----for drop collection
